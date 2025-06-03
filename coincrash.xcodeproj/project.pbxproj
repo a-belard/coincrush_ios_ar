@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8AE7F592DE8C96600E9E5FD /* GLTFSceneKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8AE7F582DE8C96600E9E5FD /* GLTFSceneKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A9813622DD0DFE2004C0490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9813402DD0DFE1004C0490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9813472DD0DFE1004C0490;
+			remoteInfo = coincrash;
+		};
+		9A98136C2DD0DFE2004C0490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9813402DD0DFE1004C0490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9813472DD0DFE1004C0490;
+			remoteInfo = coincrash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A9813482DD0DFE1004C0490 /* coincrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coincrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9813612DD0DFE2004C0490 /* coincrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coincrashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A98136B2DD0DFE2004C0490 /* coincrashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coincrashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D8BA4FB92DE7BEB500FB88A1 /* Exceptions for "coincrash" folder in "coincrash" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9A9813472DD0DFE1004C0490 /* coincrash */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9A98134A2DD0DFE1004C0490 /* coincrash */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D8BA4FB92DE7BEB500FB88A1 /* Exceptions for "coincrash" folder in "coincrash" target */,
+			);
+			path = coincrash;
+			sourceTree = "<group>";
+		};
+		9A9813642DD0DFE2004C0490 /* coincrashTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = coincrashTests;
+			sourceTree = "<group>";
+		};
+		9A98136E2DD0DFE2004C0490 /* coincrashUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = coincrashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A9813452DD0DFE1004C0490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8AE7F592DE8C96600E9E5FD /* GLTFSceneKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A98135E2DD0DFE2004C0490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9813682DD0DFE2004C0490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A98133F2DD0DFE1004C0490 = {
+			isa = PBXGroup;
+			children = (
+				9A98134A2DD0DFE1004C0490 /* coincrash */,
+				9A9813642DD0DFE2004C0490 /* coincrashTests */,
+				9A98136E2DD0DFE2004C0490 /* coincrashUITests */,
+				9A9813492DD0DFE1004C0490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A9813492DD0DFE1004C0490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9813482DD0DFE1004C0490 /* coincrash.app */,
+				9A9813612DD0DFE2004C0490 /* coincrashTests.xctest */,
+				9A98136B2DD0DFE2004C0490 /* coincrashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A9813472DD0DFE1004C0490 /* coincrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9813752DD0DFE2004C0490 /* Build configuration list for PBXNativeTarget "coincrash" */;
+			buildPhases = (
+				9A9813442DD0DFE1004C0490 /* Sources */,
+				9A9813452DD0DFE1004C0490 /* Frameworks */,
+				9A9813462DD0DFE1004C0490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9A98134A2DD0DFE1004C0490 /* coincrash */,
+			);
+			name = coincrash;
+			packageProductDependencies = (
+				D8AE7F582DE8C96600E9E5FD /* GLTFSceneKit */,
+			);
+			productName = coincrash;
+			productReference = 9A9813482DD0DFE1004C0490 /* coincrash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A9813602DD0DFE2004C0490 /* coincrashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9813782DD0DFE2004C0490 /* Build configuration list for PBXNativeTarget "coincrashTests" */;
+			buildPhases = (
+				9A98135D2DD0DFE2004C0490 /* Sources */,
+				9A98135E2DD0DFE2004C0490 /* Frameworks */,
+				9A98135F2DD0DFE2004C0490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A9813632DD0DFE2004C0490 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9A9813642DD0DFE2004C0490 /* coincrashTests */,
+			);
+			name = coincrashTests;
+			packageProductDependencies = (
+			);
+			productName = coincrashTests;
+			productReference = 9A9813612DD0DFE2004C0490 /* coincrashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A98136A2DD0DFE2004C0490 /* coincrashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A98137B2DD0DFE2004C0490 /* Build configuration list for PBXNativeTarget "coincrashUITests" */;
+			buildPhases = (
+				9A9813672DD0DFE2004C0490 /* Sources */,
+				9A9813682DD0DFE2004C0490 /* Frameworks */,
+				9A9813692DD0DFE2004C0490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A98136D2DD0DFE2004C0490 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9A98136E2DD0DFE2004C0490 /* coincrashUITests */,
+			);
+			name = coincrashUITests;
+			packageProductDependencies = (
+			);
+			productName = coincrashUITests;
+			productReference = 9A98136B2DD0DFE2004C0490 /* coincrashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A9813402DD0DFE1004C0490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					9A9813472DD0DFE1004C0490 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					9A9813602DD0DFE2004C0490 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 9A9813472DD0DFE1004C0490;
+					};
+					9A98136A2DD0DFE2004C0490 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 9A9813472DD0DFE1004C0490;
+					};
+				};
+			};
+			buildConfigurationList = 9A9813432DD0DFE1004C0490 /* Build configuration list for PBXProject "coincrash" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A98133F2DD0DFE1004C0490;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D8AE7F572DE8C96600E9E5FD /* XCRemoteSwiftPackageReference "GLTFSceneKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9A9813492DD0DFE1004C0490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A9813472DD0DFE1004C0490 /* coincrash */,
+				9A9813602DD0DFE2004C0490 /* coincrashTests */,
+				9A98136A2DD0DFE2004C0490 /* coincrashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A9813462DD0DFE1004C0490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A98135F2DD0DFE2004C0490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9813692DD0DFE2004C0490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A9813442DD0DFE1004C0490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A98135D2DD0DFE2004C0490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9813672DD0DFE2004C0490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A9813632DD0DFE2004C0490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A9813472DD0DFE1004C0490 /* coincrash */;
+			targetProxy = 9A9813622DD0DFE2004C0490 /* PBXContainerItemProxy */;
+		};
+		9A98136D2DD0DFE2004C0490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A9813472DD0DFE1004C0490 /* coincrash */;
+			targetProxy = 9A98136C2DD0DFE2004C0490 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A9813732DD0DFE2004C0490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KTZFSK4585;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A9813742DD0DFE2004C0490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KTZFSK4585;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A9813762DD0DFE2004C0490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75VZSUKF92;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = coincrash/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application requires camera access for AR features to place coins in your environment.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohan.coincrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "coincrash/coincrash-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A9813772DD0DFE2004C0490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75VZSUKF92;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = coincrash/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application requires camera access for AR features to place coins in your environment.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohan.coincrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "coincrash/coincrash-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A9813792DD0DFE2004C0490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTZFSK4585;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohan.coincrashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coincrash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coincrash";
+			};
+			name = Debug;
+		};
+		9A98137A2DD0DFE2004C0490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTZFSK4585;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohan.coincrashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coincrash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coincrash";
+			};
+			name = Release;
+		};
+		9A98137C2DD0DFE2004C0490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTZFSK4585;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohan.coincrashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coincrash;
+			};
+			name = Debug;
+		};
+		9A98137D2DD0DFE2004C0490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KTZFSK4585;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mohan.coincrashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coincrash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A9813432DD0DFE1004C0490 /* Build configuration list for PBXProject "coincrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9813732DD0DFE2004C0490 /* Debug */,
+				9A9813742DD0DFE2004C0490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9813752DD0DFE2004C0490 /* Build configuration list for PBXNativeTarget "coincrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9813762DD0DFE2004C0490 /* Debug */,
+				9A9813772DD0DFE2004C0490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9813782DD0DFE2004C0490 /* Build configuration list for PBXNativeTarget "coincrashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9813792DD0DFE2004C0490 /* Debug */,
+				9A98137A2DD0DFE2004C0490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A98137B2DD0DFE2004C0490 /* Build configuration list for PBXNativeTarget "coincrashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A98137C2DD0DFE2004C0490 /* Debug */,
+				9A98137D2DD0DFE2004C0490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8AE7F572DE8C96600E9E5FD /* XCRemoteSwiftPackageReference "GLTFSceneKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magicien/GLTFSceneKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8AE7F582DE8C96600E9E5FD /* GLTFSceneKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8AE7F572DE8C96600E9E5FD /* XCRemoteSwiftPackageReference "GLTFSceneKit" */;
+			productName = GLTFSceneKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9A9813402DD0DFE1004C0490 /* Project object */;
+}
